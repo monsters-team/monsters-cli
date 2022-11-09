@@ -1,5 +1,14 @@
 {
-  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "useWorkspaces": true,
-  "version": "1.0.1"
+  "version": "1.0.1",
+  "command": {
+    "publish": {
+      "message": "chore(release): publish",
+      "registry": "https://registry.npmjs.org/"
+    }
+  },
+  "packages":[
+    "packages/core",
+    "packages/utils"
+  ]
 }
