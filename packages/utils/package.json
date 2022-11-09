@@ -1,0 +1,22 @@
+{
+  "name": "@monsters-cli/utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "onechuan <onechuan2020@163.com>",
+  "homepage": "https://github.com/monsters-team/monsters-cli#readme",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/utils.test.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
