@@ -1,6 +1,6 @@
 {
   "name": "@monsters-cli/utils",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "> TODO: description",
   "author": "onechuan <onechuan2020@163.com>",
   "homepage": "https://github.com/monsters-team/monsters-cli#readme",
@@ -13,8 +13,8 @@
   "files": [
     "lib"
   ],
-  "bin":{
-    "monsters-cli":"bin/index.js"
+  "bin": {
+    "monsters-cli": "bin/index.js"
   },
   "scripts": {
     "test": "node ./__tests__/utils.test.js"
